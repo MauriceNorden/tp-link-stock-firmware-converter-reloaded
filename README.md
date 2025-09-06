@@ -22,8 +22,8 @@ emcc tplink-safeloader.c md5.c -o safeloader.js -s FORCE_FILESYSTEM=1 -s EXIT_RU
 
 1. enter folder `bin`
 2. Run safeloader.html from a web server such as `python3 -m http.server` as most browsers don't support file:// XHR requests.
-2. navigate to the webservers url [`https://localhost:8000`](https://localhost:8000)
+2. navigate to the webservers url [`http://localhost:8000`](https://localhost:8000)
 3. upload your firmware and place `sysupgrade.bin` onto a TFTP server
 
-# [Link to the new version of the tool]()
+# [Link to the new version of the tool](https://cdn.mndevs.host/tplink-safeloader/)
 
